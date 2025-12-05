@@ -1,6 +1,4 @@
-================================================================================
-                    INVOICE QC SERVICE - START GUIDE
-================================================================================
+INVOICE QC SERVICE - START GUIDE
 
 IMPORTANT: First navigate to the project folder!
 ------------------------------------------------
@@ -53,9 +51,8 @@ STEP 4: START FRONTEND (Optional)
 Frontend: http://localhost:3000
 
 
-================================================================================
-                         OUTPUT FILES
-================================================================================
+OUTPUT FILES
+
 
 After running with --separate flag:
 Check the folder name Output and in it the invoice folder have all the invoice 
@@ -79,9 +76,7 @@ Each invoice JSON contains:
 - line_items (description, quantity, unit_price, line_total)
 
 
-================================================================================
-                         TROUBLESHOOTING
-================================================================================
+  TROUBLESHOOTING
 
 ERROR: "No module named 'invoice_qc'"
   -> Run: cd invoice-qc-service
@@ -89,9 +84,9 @@ ERROR: "No module named 'invoice_qc'"
 ERROR: "scripts disabled on this system"
   -> Run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-================================================================================
-                         CLI COMMANDS
-================================================================================
+  
+  CLI COMMANDS
+  
 
 Extract only:
     .\venv\Scripts\python -m invoice_qc.cli extract --pdf-dir pdfs --output extracted.json

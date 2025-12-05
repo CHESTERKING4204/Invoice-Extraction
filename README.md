@@ -51,7 +51,7 @@ STEP 4: START FRONTEND (Optional)
 Frontend: http://localhost:3000
 
 
-OUTPUT FILES
+<bold><h1> OUTPUT FILES </h1></bold>
 
 
 After running with --separate flag:
